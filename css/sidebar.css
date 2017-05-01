@@ -1,0 +1,51 @@
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix-bottom {
+    position: relative;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration:none;
+    background-color: initial;
+    font-weight: bold;
+}
+
+#sidebar li {
+  	border:0 #ddd solid;
+  	border-left-width:4px;    
+}
+#sidebar li li {
+    margin-left: 2px;
+	padding-left: 10px;
+  	border-left-width:0px;    
+}
+
+#sidebar li.active {
+  	border:0 #0d5ca3 solid;
+  	border-left-width:4px;
+	font-weight: bold;
+    background: white;
+}
+
+#sidebar li.active li {
+	font-weight: normal;
+}
+
+#sidebar li li.active {
+  	border:0 #0d5ca3 solid;
+  	border-left-width:3px;
+	font-weight: bold;
+}

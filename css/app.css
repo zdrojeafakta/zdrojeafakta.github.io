@@ -1,0 +1,76 @@
+body {
+	font-size: 16px;
+	padding-top:50px;
+	-webkit-print-color-adjust: exact;
+}
+
+p {
+	margin: 0px;
+}
+
+#masthead {
+	min-height:150px;
+	background-color:#000044;
+	background-image: linear-gradient(120deg, rgb(21, 87, 153), rgb(21, 153, 87));
+  	color:#fff;
+}
+
+#masthead h1 {
+	font-size: 44px;
+	line-height: 1;
+}
+
+#masthead .well {
+	margin-top:7%;
+	background-color:#111155;
+  	border-color:#000033;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+.navbar-bright {
+	background: #dddddd;
+	background-image: linear-gradient(120deg,  #14406a, #555);
+}
+
+.navbar-bright, .navbar-bright a {
+	/*background-color:#233673;*/
+    color:#fff;
+}
+  
+/*.navbar-bright a, #masthead a, #masthead .lead {
+  	color:#aaaacc;
+}*/
+
+.navbar-bright li > a:hover {
+    background-color:#000033;
+}
+
+.affix-top,.affix{
+	position: static;
+}
+
+
+#mainCol h1,
+#mainCol h2,
+#mainCol h3,
+#mainCol h4,
+#mainCol h5,
+#mainCol h6 {
+	color: #217977;
+	padding-top: 50px;
+    margin-top: -50px;
+}
+
+
+
+.note {
+	
+	font-size: 12px;
+	border-left: solid 3px;
+	border-left-color: #ffb03c;
+	margin: 2px;
+	padding-left: 3px;
+}

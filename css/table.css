@@ -1,0 +1,35 @@
+
+thead {
+    color: #fff;
+    background: #6c90b0;
+}
+
+.table td {
+   text-align: center;   
+}
+
+.table>tbody>tr>td,
+.table>thead>tr>td {
+    width: auto !important;
+   margin: 2px;
+   padding: 1px;   
+}
+
+.table-nonfluid {
+   width: auto !important;
+   margin: 2px;
+   padding: 1px;
+}
+
+.td-red {
+    color: #d65653;
+    font-weight: bold;
+}
+
+.table-title {
+    color: #217977;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}

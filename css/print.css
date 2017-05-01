@@ -1,0 +1,20 @@
+@media print {
+	#masthead, header {
+		display: none !important;
+	}
+}
+
+
+
+@media print {
+    span {
+        display:block
+    }
+
+    @media print {
+    .collage_bg {
+        background-color: #E6E7E9 !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+}

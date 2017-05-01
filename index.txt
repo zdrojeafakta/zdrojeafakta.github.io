@@ -1,0 +1,26 @@
+$config 
+{ 
+    "automaticSections": true,
+    "defaultSections": false
+}
+
+$topbar [Zdroje a fakta|index.html]
+
+$header title:"Zdroje a fakta" subtitle:"Subtitle"
+
+
+# Test page
+
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+
+## Sub page

@@ -1,0 +1,7 @@
+*~
+.DS_Store
+.idea
+
+
+# Javascript / Typescript
+*.d.ts
