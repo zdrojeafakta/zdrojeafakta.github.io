@@ -5,6 +5,8 @@ define(["require", "exports", "parsers/parser", "html/html", "boot/navigation", 
         init() {
             let pathname = window.location.pathname;
             let name = pathname.replace(".html", ".txt");
+            if (name = "/")
+                name = "index.txt";
             console.log(name);
             // Process text file
             var stringData = $.ajax({
