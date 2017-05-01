@@ -4,12 +4,13 @@ $config
     "defaultSections": false
 }
 
-$topbar [Zdroje a fakta|index.html] [Subpage|pages/subpage.html]
-
-$header title:"Zdroje a fakta" subtitle:"Subtitle"
+$topbar [Zdroje a fakta|../index.html] [Subpage|subpage.html]
 
 
-# Test page
+$header title:"Zdroje a fakta" subtitle:"Subpage"
+
+
+# Subpage
 
 <p>
 <p>
